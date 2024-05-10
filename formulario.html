@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Compre Su Juego!</h1>
+    </header>
+    <main>
+        <form action="">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" required>
+            <div>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" name="CorreoElectronico" id="Email" required>
+            </div>
+            <div>
+                <label for="Fecha de nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" name="Fehcadenacimiento" id="Fechadenacimiento" required>
+            </div>
+            <div>
+                <label for="DNI">DNI:</label>
+                <input type="number" name="DNI" id="DNI" max="" min="0" required>
+            </div>
+            <div>
+                <label for="tel">Numero de Telefono:</label>
+                <input type="tel" name="tel" id="tel" required>
+            </div>
+            <div>
+                <label for="twitter">Usuario de X:</label>
+                <input type="text" name="twitter" id="twitter" required>
+            </div>
+            <div>
+                <label for="insta">Usuario de Instagram:</label>
+                <input type="text" name="insta" id="insta" required>
+            </div>
+            <div>
+                <label for="Provincia">Provincia</label>
+                <select name="Provincia" required>
+
+                    <option value="BSAS">Buenos Aires</option>
+                    <option value="CABA">C.A.B.A</option>
+                    <option value="TM">Tucuman</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Ríos">Entre Ríos</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquén">Neuquén</option>
+                    <option value="Río Negro">Río Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis">San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Santiago del Estero">Santiago del Estero</option>
+                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                </select>
+            </div>
+            <div>
+                <h2>Informacion Adicional</h2>
+                <p>Notas Del pedido (opcional)</p>
+                <textarea name="Info" id="Info" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <p>Para ayudar a mejorar seleccione el tipo de juego que mas le guste.
+                    Segun lo que elijas haremos lo posible en agregar mas juegos de esa categoria! :D
+                </p>
+                <label for="TPDJ">Tipo de juego</label>
+                <select name="Tipodejuego" id="Tipodejuego" required>
+
+                    <option value="RPG">RPG</option>
+                    <option value="Modo Historia">Modo Historia</option>
+                    <option value="Competitivo">Competitivo</option>
+                    <option value="MMORPG">MMORPG</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <p>Emiliano Diaz</p>
+    </footer>
+</body>
+
+</html>
